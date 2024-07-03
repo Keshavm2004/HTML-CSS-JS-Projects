@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.425);
+    height: fit-content;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 10px;
+    border: 2px solid black;
+}
+.screen{
+    width: 80vw;
+    margin-right: 5px;
+}
+.screen1{
+    padding: 5px;
+    width: 99%;
+    /* margin-bottom: 0.8vw; */
+    height: 5vh;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: right;
+    border: 0px solid white;
+}
+.screen2{
+    padding: 5px;
+    width: 99%;
+    /* margin-bottom: 0.8vw; */
+    text-align: right;
+    height: 5vh;
+    font-size: 2vw;
+    font-weight: bold;
+    border: 0px solid white;
+}
+.temp-result{
+    padding: 5px;
+    width: 99%;
+    margin-bottom: 0.8vw;
+    height: 5vh;
+    font-size: 2vw;
+    font-weight: bold;
+    border: 0px solid white;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.commonbtn{
+    font-weight: bolder;
+    font-size: 2.6vw;
+    border: 1px solid black;
+    margin: 0.5vw;
+    padding: 1px;
+    border-radius: 7px;
+    height: 10vh;
+}
+/* .btnc{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btnback{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btnmod{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btndivide{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btn7{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btn8{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btn9{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btnmul{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btn4{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btn5{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btn6{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btnsub{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btn1{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btn2{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btn3{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btnadd{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btnnull{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btn0{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btndecimal{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
+/* .btnequal{
+    font-weight: bolder;
+    font-size: 1.6vw;
+    border:0.5px solid black;
+} */
