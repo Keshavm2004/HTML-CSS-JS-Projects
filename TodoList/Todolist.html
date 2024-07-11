@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Todolist.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1>To Do list <img src="images/note_image.png" alt=""></h1>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add a new task">
+                <button class="btn" onclick="addtask()">Add</button>
+            </div>
+            <nav>
+                <button class="active" id="all_tasks">All</button>
+                <button id="pending_tasks">Pending</button>
+                <button id="completed_tasks">Completed</button>
+                <button id="clear_tasks">Clear All</button>
+            </nav>
+            <ul id="list-container"></ul>
+        </div>
+    </div>
+    <script src="Todolist.js"></script>
+</body>
+</html>
